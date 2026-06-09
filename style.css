@@ -1,0 +1,60 @@
+/* Basic Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 231, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    font-family: sans-serif;
+
+} 
+
+.container {
+    display:grid;
+    text-align: center;
+
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+#main{
+    margin-bottom: 20px;
+}
+
+.btn-line{
+    display:flex;
+    gap:30px;
+}
+
+.btn{
+    border: 1px solid #e0b1ff;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.btn:hover{
+    background-color:#eeb4ff93;
+    transition: 0.7s;
+    cursor: pointer;
+
+
+}
+
+.btn:focus{
+    box-shadow: 0 0 0 4px #5a01a74d;
+
+}
+
+
+/*Screens */
